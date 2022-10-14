@@ -1,0 +1,245 @@
+@import url("https://use.typekit.net/fmq0bod.css");
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    background-color: #181719;
+    color: white;
+    height: 100vh;
+    
+    
+}
+
+.header {
+    color: white;
+    width: 100%;
+    
+
+    .navToDesktop {
+        display: none;
+    }
+    .navHeader {
+        
+        #iconMenu {
+            color: white;
+            background-color: white;
+        }
+        .buttonHeader {
+            font-size: 10px;
+            border-radius: 0;
+        }
+
+
+        .offCanvasBackground {
+            background-color: #181719;
+            
+        }
+
+        .contentOffCanvas {
+            font-family: Montserrat,serif;
+            font-size: 22px;
+            display: flex;
+            justify-content: center;
+            height: 80vh;
+            color: white;
+            gap: 15px;
+
+           .homeUnderline {
+            border-bottom: 1px solid white;
+            width: 80px;
+            margin: auto;
+            font-weight: 700;
+            
+            
+        }
+        
+
+        }
+       
+        .iconMenu {
+            border: none;
+        }
+        .iconMenu:focus {
+            box-shadow: 0 0 0 0;
+            outline: 0;
+        }
+    }
+} 
+
+
+
+.contentText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    width: 225px;
+    
+    h1 {
+        font-family: Lora , serif;
+        font-size: 30px;
+    }
+
+    p {
+        font-family: Montserrat , serif;
+        font-size: 15px;
+    }
+
+    .p-readMore {
+        font-weight: 700;
+    }
+}
+
+.contentImage {
+    margin-top: 60px;
+    height: 50vh;
+
+    .image {
+        margin-top: -80px;
+        
+    }
+}
+
+
+        
+    
+    .cardBody {
+       margin-top: 10px;
+      
+
+        p {
+            font-family:lora, serif;
+            font-weight: bold;
+            font-size: 17px;
+            margin-right: 25%;
+            line-height: 19px;
+        }
+        
+    }
+
+
+footer {
+    font-family: Montserrat , serif;
+    color: #A9A9A9;
+    font-size: 10px;
+    height: 5vh;
+    
+}
+
+
+@media screen and (min-width:375px) and (max-height: 800px)  {
+   
+    
+
+  
+
+    footer {
+        font-family: Montserrat , serif;
+        color: #A9A9A9;
+        font-size: 10px;
+        height: 10vh;
+        
+        .descFooter {
+            padding-top: 30px;
+        }
+    }
+}
+@media screen and (min-width:425px) {
+   
+    footer {
+        font-family: Montserrat , serif;
+        color: #A9A9A9;
+        font-size: 10px;
+        height: 15vh;
+        
+        .descFooter {
+            padding-top: 60px;
+        }
+    }
+}
+
+@media screen and (min-width:768px){
+
+
+    .header {
+        padding-top: 15px;
+
+        #buttonHeader {
+            font-size: 17px;
+        }
+
+        .navHeader {
+            display: none;
+        }
+
+        .navigationDesktop {
+            display: block;
+            
+        }
+        .navToDesktop {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            
+
+            ul {
+                display: flex;
+                gap: 40px;
+                list-style: none;
+                font-size: 17px;
+                
+                
+            }
+            
+            .homeUnderline {
+                border-bottom: 2px solid white;
+                width: 50px;
+                margin: auto;
+                font-weight: 700;
+             }
+        }
+}
+    
+
+    .main-content {
+        display: flex;
+        align-items: center;
+        height: 80vh;
+        width: 100vw;
+        column-gap: 30px;
+        
+    }
+    .contentText {
+        width: 30%;
+        height: 30vh;
+        margin-top: -100px;
+
+        
+    }
+    .contentImage {
+        
+        height: 50vh;
+        width: 65%;
+    
+    }
+    
+    
+
+    footer {
+        font-family: Montserrat , serif;
+        color: #A9A9A9;
+        font-size: 12px;
+        height: 5px;
+        
+        .descFooter {
+            padding-top: 20px;
+        }
+    }
+
+  
+
+}
