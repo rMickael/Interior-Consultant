@@ -243,3 +243,30 @@ footer {
   
 
 }
+
+
+
+@media  screen and (min-width:1024px ) {
+    
+    .contentImage {
+        
+        height: 60vh;
+        width: 65%;
+    
+    }
+
+
+    footer {
+        font-family: Montserrat , serif;
+        color: #A9A9A9;
+        font-size: 12px;
+        height: 10px;
+
+       
+        
+        .descFooter {
+            padding-top: 20px;
+        }
+    }
+
+}
