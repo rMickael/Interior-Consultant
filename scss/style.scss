@@ -247,13 +247,22 @@ footer {
 
 
 @media  screen and (min-width:1024px ) and (max-width : 2560px) {
-    
+    .main-content {
+        display: flex;
+        
+        justify-content: center;
+    }
     .contentImage {
         
         height: 60vh;
         width: 55%;
         
         margin-left: 100px;
+
+        .image {
+            width: 60vw;
+            height: 65vh;   
+        }
     }
 
 
@@ -261,13 +270,11 @@ footer {
         font-family: Montserrat , serif;
         color: #A9A9A9;
         font-size: 12px;
-        height: 10px;
-
+        height: 5px;
+        margin-top: -20px;
        
         
-        .descFooter {
-            padding-top: 20px;
-        }
+        
     }
 
 }
